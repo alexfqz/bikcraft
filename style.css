@@ -19,6 +19,10 @@ a {
   background: #000;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
