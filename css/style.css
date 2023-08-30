@@ -1,0 +1,11 @@
+
+/* Estilos globais */
+@import "./css/global/global.css";
+@import "./css/global/header.css";
+@import "./css/utilidades/cores.css";
+
+/* Componentes do site */
+@import "./css/utilidades/componentes.css";
+
+/* Home do site */
+@import "./css/home/introducao.css";
