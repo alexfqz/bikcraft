@@ -1,11 +1,21 @@
 
 /* Estilos globais */
-@import "./css/global/global.css";
-@import "./css/global/header.css";
-@import "./css/utilidades/cores.css";
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/fontes.css";
 
 /* Componentes do site */
-@import "./css/utilidades/componentes.css";
+@import "./utilidades/componentes.css";
 
 /* Home do site */
-@import "./css/home/introducao.css";
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+
+/* Lista de Bicicletas*/
+@import "./bicicletas/bicicletas-lista.css";
+
+
+
+
+
