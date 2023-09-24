@@ -1,0 +1,49 @@
+.contato-bg {
+  background: var(--cor-c12);
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+.contato-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.contato-grid li {
+  position: relative;
+}
+
+.contato-grid li + li {
+  margin-top: 10px;
+}
+.contato-grid li:first-child {
+  margin-top: 32px;
+}
+
+.contato-grid li:nth-child(even) {
+  margin-bottom: 40px;
+}
+
+.contato-grid li:nth-child(even)::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 360px;
+  background-color: var(--cor-c11);
+  position: absolute;
+  top: 40px;
+  
+}
+
+.info-grid li + li {
+  margin-top: 10px;
+}
+
+.info-grid li:first-child {
+  margin-top: 32px;
+}
+
+.info-grid li:hover {
+  color: var(--cor-c0);
+}

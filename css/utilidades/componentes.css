@@ -16,10 +16,28 @@
   color: #332200;
   font-family: "Poppins";
   font-weight: 600;
+  max-width: max-content;
 }
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.cinza {
+  font-size: 18px;
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--cor-c10);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: var(--cor-c0);
+  font-family: "Poppins";
+  font-weight: 600;
+  max-width: max-content;
+}
+
+.botao.cinza:hover {
+background: var(--cor-c9);
 }
 
 @media (max-width: 800px) {
